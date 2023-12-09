@@ -1,8 +1,8 @@
 package panel
 
 import (
-	"sun-panel/api/api_v1"
-	"sun-panel/api/api_v1/middleware"
+	"Mi-Panel/api/api_v1"
+	"Mi-Panel/api/api_v1/middleware"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,8 +1,8 @@
 package apiReturn
 
 import (
-	"sun-panel/api/api_v1/common/apiData/commonApiStructs"
-	"sun-panel/global"
+	"Mi-Panel/api/api_v1/common/apiData/commonApiStructs"
+	"Mi-Panel/global"
 
 	"github.com/gin-gonic/gin"
 )

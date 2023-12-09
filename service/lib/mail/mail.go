@@ -1,7 +1,7 @@
 package mail
 
 import (
-	"sun-panel/global"
+	"Mi-Panel/global"
 )
 
 // 发送注册验证码

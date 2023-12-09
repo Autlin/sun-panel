@@ -2,7 +2,7 @@ package rateLimit
 
 import (
 	"errors"
-	"sun-panel/global"
+	"Mi-Panel/global"
 )
 
 const (

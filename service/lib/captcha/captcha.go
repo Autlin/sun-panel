@@ -1,7 +1,7 @@
 package captcha
 
 import (
-	"sun-panel/global"
+	"Mi-Panel/global"
 
 	"github.com/gin-gonic/gin"
 	"github.com/mojocn/base64Captcha"

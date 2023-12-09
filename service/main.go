@@ -2,9 +2,9 @@ package main
 
 import (
 	"log"
-	"sun-panel/global"
-	"sun-panel/initialize"
-	"sun-panel/router"
+	"Mi-Panel/global"
+	"Mi-Panel/initialize"
+	"Mi-Panel/router"
 )
 
 func main() {

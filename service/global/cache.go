@@ -1,8 +1,8 @@
 package global
 
 import (
-	"sun-panel/lib/cache"
-	"sun-panel/structs"
+	"Mi-Panel/lib/cache"
+	"Mi-Panel/structs"
 	"time"
 )
 

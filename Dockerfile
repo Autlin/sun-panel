@@ -31,7 +31,7 @@ RUN go env -w GO111MODULE=on \
     && go install -a -v github.com/go-bindata/go-bindata/...@latest \
     && go install -a -v github.com/elazarl/go-bindata-assetfs/...@latest \
     && go-bindata-assetfs -o=assets/bindata.go -pkg=assets assets/... \
-    && go build -o sun-panel --ldflags="-X sun-panel/global.RUNCODE=release -X sun-panel/global.ISDOCKER=docker" main.go
+    && go build -o Mi-Panel --ldflags="-X Mi-Panel/global.RUNCODE=release -X Mi-Panel/global.ISDOCKER=docker" main.go
 
 
 # run_image
@@ -41,10 +41,10 @@ WORKDIR /app
 
 COPY --from=web_image /build/dist /app/web
 
-COPY --from=server_image /build/sun-panel /app/sun-panel
+COPY --from=server_image /build/Mi-Panel /app/Mi-Panel
 
 RUN apk add --no-cache bash ca-certificates su-exec tzdata \
-    && chmod +x ./sun-panel \
-    && ./sun-panel -config
+    && chmod +x ./Mi-Panel \
+    && ./Mi-Panel -config
 
-CMD ./sun-panel
+CMD ./Mi-Panel

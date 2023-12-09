@@ -1,10 +1,10 @@
 package global
 
 import (
-	"sun-panel/lib/queue"
-	"sun-panel/lib/queue/queueMemory"
-	"sun-panel/lib/queue/queueRedis"
-	"sun-panel/structs"
+	"Mi-Panel/lib/queue"
+	"Mi-Panel/lib/queue/queueMemory"
+	"Mi-Panel/lib/queue/queueRedis"
+	"Mi-Panel/structs"
 )
 
 // 缓存驱动

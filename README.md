@@ -2,9 +2,9 @@
 
 <img src="./doc/images/logo.png" width="100" height="100" />
 
-# Sun-Panel
+# Mi-Panel
 
-<a href="https://github.com/hslr-s/sun-panel.git">Github</a> | <a href="https://gitee.com/hslr/sun-panel.git">Gitee</a> | <a href="https://hub.docker.com/r/hslr/sun-panel">Docker Hub</a> |  <a href="https://www.bilibili.com/video/BV1AC4y1U7va">B站视频</a>
+<a href="https://github.com/Autlin/Mi-Panel.git">Github</a> | <a href="https://gitee.com/hslr/Mi-Panel.git">Gitee</a> | <a href="https://hub.docker.com/r/hslr/Mi-Panel">Docker Hub</a> |  <a href="https://www.bilibili.com/video/BV1AC4y1U7va">B站视频</a>
 
 一个服务器、NAS导航面板、Homepage、浏览器首页。
 
@@ -98,12 +98,12 @@
 
 ### 二进制文件运行
 
-去 [Releases](https://github.com/hslr-s/sun-panel/releases) 下载二进制文件
+去 [Releases](https://github.com/Autlin/Mi-Panel/releases) 下载二进制文件
 
 执行示例
 
 ```sh
-./sun-panel
+./Mi-Panel
 ```
 
 #### 重置密码
@@ -111,7 +111,7 @@
 执行示例
 
 ```sh
-./sun-panel -password-reset
+./Mi-Panel -password-reset
 ```
 输出
 ```
@@ -132,17 +132,17 @@
 
 1. 拉取镜像
 ```
-docker pull hslr/sun-panel
+docker pull hslr/Mi-Panel
 ```
 
 2. 直接下载运行
 ```
 docker run -d --restart=always -p 3002:3002 \
--v ~/docker_data/sun-panel/conf:/app/conf \
--v ~/docker_data/sun-panel/uploads:/app/uploads \
--v ~/docker_data/sun-panel/database:/app/database \
---name sun-panel \
-hslr/sun-panel
+-v ~/docker_data/Mi-Panel/conf:/app/conf \
+-v ~/docker_data/Mi-Panel/uploads:/app/uploads \
+-v ~/docker_data/Mi-Panel/database:/app/database \
+--name Mi-Panel \
+hslr/Mi-Panel
 ```
 
 
@@ -172,17 +172,17 @@ cd service
 go run main.go
 
 # 编译打包
-go build -o sun-panel main.go
+go build -o Mi-Panel main.go
 ```
 
 #### docker windows本地开发编译运行
 
 ```
 // 编译
-docker build -t sun-panel .
+docker build -t Mi-Panel .
 
-// 运行 D:\docker\data\sun-panel 为本地运行的路径
-docker run --rm -d -p 3003:3002 -v  D:\docker\data\sun-panel\conf:/app/conf -v  D:\docker\data\sun-panel\runtime:/app/runtime -v D:\docker\data\sun-panel\uploads:/app/uploads -v D:\docker\data\sun-panel\database:/app/database --name sun-panel sun-panel
+// 运行 D:\docker\data\Mi-Panel 为本地运行的路径
+docker run --rm -d -p 3003:3002 -v  D:\docker\data\Mi-Panel\conf:/app/conf -v  D:\docker\data\Mi-Panel\runtime:/app/runtime -v D:\docker\data\Mi-Panel\uploads:/app/uploads -v D:\docker\data\Mi-Panel\database:/app/database --name Mi-Panel Mi-Panel
 ```
 
 ## 🎉 图标、壁纸网站推荐
@@ -199,4 +199,4 @@ docker run --rm -d -p 3003:3002 -v  D:\docker\data\sun-panel\conf:/app/conf -v  
 
 ## ❤️ 感谢
 
-- [Roc](https://github.com/RocCheng)提供自动构建多平台docker镜像[方案](https://github.com/hslr-s/sun-panel/issues/9#issuecomment-1817433439)
+- [Roc](https://github.com/RocCheng)提供自动构建多平台docker镜像[方案](https://github.com/Autlin/Mi-Panel/issues/9#issuecomment-1817433439)

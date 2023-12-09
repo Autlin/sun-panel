@@ -35,7 +35,7 @@ onMounted(() => {
         </div>
         <div class="text-xl">
           <NGradientText type="info">
-            <a href="https://github.com/hslr-s/sun-panel/releases" class="font-semibold" title="点此查看更新说明" target="_blank">v{{ versionName }}</a>
+            <a href="https://github.com/Autlin/Mi-Panel/releases" class="font-semibold" title="点此查看更新说明" target="_blank">v{{ versionName }}</a>
           </NGradientText>
         </div>
       </div>
@@ -43,7 +43,7 @@ onMounted(() => {
     <NDivider />
     <div class="flex flex-col items-center justify-center text-base">
       <div>
-        建议反馈：<a href="https://github.com/hslr-s/sun-panel/issues" target="_blank" class="link">Github Issues</a>
+        建议反馈：<a href="https://github.com/Autlin/Mi-Panel/issues" target="_blank" class="link">Github Issues</a>
       </div>
 
       <div>
@@ -55,21 +55,21 @@ onMounted(() => {
       </div>
 
       <div>
-        开发者：<a href="https://blog.enianteam.com/u/sun/content/11" target="_blank" class="link">红烧猎人</a> | <a href="https://github.com/hslr-s/sun-panel/blob/master/doc/donate.md" target="_blank" class="text-red-600 hover:text-red-900">🧧打赏</a>
+        开发者：<a href="https://blog.enianteam.com/u/sun/content/11" target="_blank" class="link">红烧猎人</a> | <a href="https://github.com/Autlin/Mi-Panel/blob/master/doc/donate.md" target="_blank" class="text-red-600 hover:text-red-900">🧧打赏</a>
       </div>
 
       <div class="flex mt-[10px]">
         <div class="flex items-center mx-[10px]">
           <img class="w-[20px] h-[20px] mr-[5px]" :src="srcGithub" alt="">
-          <a href="https://github.com/hslr-s/sun-panel" target="_blank" class="link">Github</a>
+          <a href="https://github.com/Autlin/Mi-Panel" target="_blank" class="link">Github</a>
         </div>
         <div class="flex items-center mx-[10px]">
           <img class="w-[20px] h-[20px] mr-[5px]" :src="srcGitee" alt="">
-          <a href="https://gitee.com/hslr/sun-panel" target="_blank" class="link">Gitee</a>
+          <a href="https://gitee.com/hslr/Mi-Panel" target="_blank" class="link">Gitee</a>
         </div>
         <div class="flex items-center mx-[10px]">
           <img class="w-[20px] h-[20px] mr-[5px]" :src="srcDocker" alt="">
-          <a href="https://hub.docker.com/r/hslr/sun-panel" target="_blank" class="link">Docker</a>
+          <a href="https://hub.docker.com/r/hslr/Mi-Panel" target="_blank" class="link">Docker</a>
         </div>
       </div>
 

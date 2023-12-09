@@ -1,6 +1,6 @@
 export default {
   common: {
-    appName: 'Sun-Panel',
+    appName: 'Mi-Panel',
     add: '添加',
     addSuccess: '添加成功',
     edit: '编辑',

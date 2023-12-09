@@ -39,7 +39,7 @@ buildBackEndAssets() {
 # buildBinary() {
 #   cd $REPO/service
 #   # mv "${REPO}/dist" "${REPO}/web"
-#   go build -o "sun-panel" --ldflags="-X sun-panel/global.RUNCODE=release" main.go
+#   go build -o "Mi-Panel" --ldflags="-X Mi-Panel/global.RUNCODE=release" main.go
 # }
 
 _build() {
@@ -60,12 +60,12 @@ _build() {
   pathRelease=$REPO/release
 
   if [ -n "$VERSION" ]; then
-    outPath="sun-panel_${VERSION}_${os}_${arch}"
+    outPath="Mi-Panel_${VERSION}_${os}_${arch}"
   else
-    outPath="sun-panel_${COMMIT_SHA}_${os}_${arch}"
+    outPath="Mi-Panel_${COMMIT_SHA}_${os}_${arch}"
   fi
-  outname="${pathRelease}/${outPath}/sun-panel"
-  go build -o "${outname}" --ldflags="-X sun-panel/global.RUNCODE=release" main.go
+  outname="${pathRelease}/${outPath}/Mi-Panel"
+  go build -o "${outname}" --ldflags="-X Mi-Panel/global.RUNCODE=release" main.go
 
   cd $pathRelease
   # copy front file
@@ -73,10 +73,10 @@ _build() {
 
   echo "Release ${outPath}"
   if [ "$os" = "windows" ]; then
-    mv $outname $outPath/sun-panel.exe
+    mv $outname $outPath/Mi-Panel.exe
     zip -r "${pathRelease}/${outPath}.zip" $outPath
   else
-    mv $outname $outPath/sun-panel
+    mv $outname $outPath/Mi-Panel
     tar -zcvf "${pathRelease}/${outPath}.tar.gz" $outPath
   fi
   rm -rf "${pathRelease}/${outPath}"

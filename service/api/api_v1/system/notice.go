@@ -1,10 +1,10 @@
 package system
 
 import (
-	"sun-panel/api/api_v1/common/apiData/systemApiStructs"
-	"sun-panel/api/api_v1/common/apiReturn"
-	"sun-panel/global"
-	"sun-panel/models"
+	"Mi-Panel/api/api_v1/common/apiData/systemApiStructs"
+	"Mi-Panel/api/api_v1/common/apiReturn"
+	"Mi-Panel/global"
+	"Mi-Panel/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

@@ -2,11 +2,11 @@ package panel
 
 import (
 	"math"
-	"sun-panel/api/api_v1/common/apiData/commonApiStructs"
-	"sun-panel/api/api_v1/common/apiReturn"
-	"sun-panel/api/api_v1/common/base"
-	"sun-panel/global"
-	"sun-panel/models"
+	"Mi-Panel/api/api_v1/common/apiData/commonApiStructs"
+	"Mi-Panel/api/api_v1/common/apiReturn"
+	"Mi-Panel/api/api_v1/common/base"
+	"Mi-Panel/global"
+	"Mi-Panel/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

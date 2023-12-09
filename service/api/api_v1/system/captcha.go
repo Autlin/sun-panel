@@ -3,8 +3,8 @@ package system
 import (
 	"encoding/base64"
 	"strconv"
-	"sun-panel/lib/captcha"
-	"sun-panel/lib/cmn"
+	"Mi-Panel/lib/captcha"
+	"Mi-Panel/lib/cmn"
 
 	"github.com/gin-gonic/gin"
 )

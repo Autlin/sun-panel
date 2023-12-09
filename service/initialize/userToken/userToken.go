@@ -1,9 +1,9 @@
 package userToken
 
 import (
-	"sun-panel/global"
-	"sun-panel/lib/cache"
-	"sun-panel/models"
+	"Mi-Panel/global"
+	"Mi-Panel/lib/cache"
+	"Mi-Panel/models"
 
 	"time"
 )

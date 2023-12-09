@@ -1,9 +1,9 @@
 version: "3.2"
 
 services:
-  sun-panel:
-    image: 'hslr/sun-panel:latest'
-    container_name: sun-panel
+  Mi-Panel:
+    image: 'hslr/Mi-Panel:latest'
+    container_name: Mi-Panel
     volumes:
     - ./conf:/app/conf
     - ./uploads:/app/uploads

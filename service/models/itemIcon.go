@@ -1,7 +1,7 @@
 package models
 
 import (
-	"sun-panel/models/datatype"
+	"Mi-Panel/models/datatype"
 
 	"gorm.io/gorm"
 )

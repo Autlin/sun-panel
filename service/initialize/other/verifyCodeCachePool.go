@@ -1,8 +1,8 @@
 package other
 
 import (
-	"sun-panel/global"
-	"sun-panel/lib/cache"
+	"Mi-Panel/global"
+	"Mi-Panel/lib/cache"
 	"time"
 )
 

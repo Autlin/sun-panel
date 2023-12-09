@@ -12,7 +12,7 @@ export function defaultStatePanelConfig(): Panel.panelConfig {
     iconTextColor: '#ffffff',
     iconTextInfoHideDescription: false,
     iconTextIconHideTitle: false,
-    logoText: 'Sun-Panel',
+    logoText: 'Mi-Panel',
     logoImageSrc: '',
     clockShowSecond: false,
     searchBoxShow: false,

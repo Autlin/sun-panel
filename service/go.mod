@@ -1,4 +1,4 @@
-module sun-panel
+module Mi-Panel
 
 go 1.19
 

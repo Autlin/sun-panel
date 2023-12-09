@@ -10,7 +10,7 @@ import (
 	"path"
 	"strconv"
 	"strings"
-	"sun-panel/assets"
+	"Mi-Panel/assets"
 	"time"
 )
 

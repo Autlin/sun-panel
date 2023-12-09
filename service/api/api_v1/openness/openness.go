@@ -1,9 +1,9 @@
 package openness
 
 import (
-	"sun-panel/api/api_v1/common/apiReturn"
-	"sun-panel/global"
-	"sun-panel/lib/cmn/systemSetting"
+	"Mi-Panel/api/api_v1/common/apiReturn"
+	"Mi-Panel/global"
+	"Mi-Panel/lib/cmn/systemSetting"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,11 +1,11 @@
 package router
 
 import (
-	"sun-panel/global"
-	// "sun-panel/router/admin"
-	"sun-panel/router/openness"
-	"sun-panel/router/panel"
-	"sun-panel/router/system"
+	"Mi-Panel/global"
+	// "Mi-Panel/router/admin"
+	"Mi-Panel/router/openness"
+	"Mi-Panel/router/panel"
+	"Mi-Panel/router/system"
 
 	"github.com/gin-gonic/gin"
 )
@@ -36,6 +36,6 @@ func InitRouters(addr string) error {
 	// 上传的文件
 	router.Static("/uploads", "./uploads")
 
-	global.Logger.Info("Sun-Panel is Started.  Listening and serving HTTP on ", addr)
+	global.Logger.Info("Mi-Panel is Started.  Listening and serving HTTP on ", addr)
 	return router.Run(addr)
 }

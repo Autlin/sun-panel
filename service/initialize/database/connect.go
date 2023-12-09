@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 	"path"
-	"sun-panel/lib/cmn"
-	"sun-panel/models"
+	"Mi-Panel/lib/cmn"
+	"Mi-Panel/models"
 	"time"
 
 	"gorm.io/driver/mysql"

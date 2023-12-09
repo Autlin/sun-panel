@@ -4,19 +4,19 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"sun-panel/global"
-	"sun-panel/initialize/cUserToken"
-	"sun-panel/initialize/config"
-	"sun-panel/initialize/database"
-	"sun-panel/initialize/lang"
-	"sun-panel/initialize/other"
-	"sun-panel/initialize/redis"
-	"sun-panel/initialize/runlog"
-	"sun-panel/initialize/systemSettingCache"
-	"sun-panel/initialize/userToken"
-	"sun-panel/lib/cmn"
-	"sun-panel/models"
-	"sun-panel/structs"
+	"Mi-Panel/global"
+	"Mi-Panel/initialize/cUserToken"
+	"Mi-Panel/initialize/config"
+	"Mi-Panel/initialize/database"
+	"Mi-Panel/initialize/lang"
+	"Mi-Panel/initialize/other"
+	"Mi-Panel/initialize/redis"
+	"Mi-Panel/initialize/runlog"
+	"Mi-Panel/initialize/systemSettingCache"
+	"Mi-Panel/initialize/userToken"
+	"Mi-Panel/lib/cmn"
+	"Mi-Panel/models"
+	"Mi-Panel/structs"
 
 	"log"
 
@@ -187,7 +187,7 @@ func Logo() {
 
 	versionInfo := cmn.GetSysVersionInfo()
 	fmt.Println("Version:", versionInfo.Version)
-	fmt.Println("Welcome to the Sun-Panel.")
-	fmt.Println("Project address:", "https://github.com/hslr-s/sun-panel")
+	fmt.Println("Welcome to the Mi-Panel.")
+	fmt.Println("Project address:", "https://github.com/Autlin/Mi-Panel")
 
 }

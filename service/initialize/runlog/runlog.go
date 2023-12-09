@@ -2,8 +2,8 @@ package runlog
 
 import (
 	"os"
-	"sun-panel/global"
-	"sun-panel/lib/cmn"
+	"Mi-Panel/global"
+	"Mi-Panel/lib/cmn"
 
 	"go.uber.org/zap"
 )
